@@ -1,0 +1,122 @@
+{
+  "mappings": {
+    "product_pool": {
+      "properties": {
+        "batchNo": {
+          "type": "long"
+        },
+        "merchantCode": {
+          "type": "text",
+          "fields": {
+            "keyword": {
+              "ignore_above": 256,
+              "type": "keyword"
+            }
+          }
+        },
+        "productId": {
+          "type": "text",
+          "fields": {
+            "keyword": {
+              "ignore_above": 256,
+              "type": "keyword"
+            }
+          }
+        },
+        "mergeType": {
+          "type": "text",
+          "fields": {
+            "keyword": {
+              "ignore_above": 256,
+              "type": "keyword"
+            }
+          }
+        },
+        "saleMode": {
+          "type": "long"
+        },
+        "upcCodes": {
+          "type": "text",
+          "fields": {
+            "keyword": {
+              "ignore_above": 256,
+              "type": "keyword"
+            }
+          }
+        },
+        "sort": {
+          "type": "long"
+        },
+        "storeId": {
+          "type": "long"
+        },
+        "saleUnit": {
+          "type": "long"
+        },
+        "createUserPin": {
+          "type": "text",
+          "fields": {
+            "keyword": {
+              "ignore_above": 256,
+              "type": "keyword"
+            }
+          }
+        },
+        "productZoneId": {
+          "type": "long"
+        },
+        "skuName": {
+          "type": "text",
+          "fields": {
+            "keyword": {
+              "ignore_above": 256,
+              "type": "keyword"
+            }
+          }
+        },
+        "createTime": {
+          "type": "long"
+        },
+        "tenantId": {
+          "type": "long"
+        },
+        "logo": {
+          "type": "text",
+          "fields": {
+            "keyword": {
+              "ignore_above": 256,
+              "type": "keyword"
+            }
+          }
+        },
+        "stockStatus": {
+          "type": "long"
+        },
+        "categoryId": {
+          "type": "text",
+          "fields": {
+            "keyword": {
+              "ignore_above": 256,
+              "type": "keyword"
+            }
+          }
+        },
+        "skuId": {
+          "type": "text",
+          "fields": {
+            "keyword": {
+              "ignore_above": 256,
+              "type": "keyword"
+            }
+          }
+        },
+        "basePrice": {
+          "type": "float"
+        },
+        "status": {
+          "type": "long"
+        }
+      }
+    }
+  }
+}
